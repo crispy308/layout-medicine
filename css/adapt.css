@@ -1,4 +1,16 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
+    .medic {
+        margin-top: 400px;
+    }
+
+    .main__left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
     .bord {
       width: 960px;
     }
@@ -33,7 +45,7 @@
     }
 
     .lays {
-        height: 1150px;
+        height: 450px;
     }
 }
 
@@ -120,6 +132,25 @@
         margin-top: 10px;
     }
 
+    .main__right {
+        display: flex;
+    }
+
+    .main__item h3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__item h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__item p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
 
 }
 
@@ -236,6 +267,7 @@
 
         .section__item {
             padding-bottom: 100px;
+            
         }
 
         .list__item p {
@@ -267,4 +299,13 @@
         .footer__item h3, h4 {
             font-size: 11px;
         }
+
+        .footer__item {
+            margin: 0 20px;
+        }
+
+        .img1 {
+            width: 15%;
+        }
+        
     }

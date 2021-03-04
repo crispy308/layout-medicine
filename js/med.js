@@ -1,7 +1,7 @@
 $(function () {
     $('.lays__inner').slick({
         infinite: true,
-        slidesToShow: 3, 
+        slidesToShow: 1, 
         slidesToScroll: 1,
         speed: 1000,
         autoplay: true,
