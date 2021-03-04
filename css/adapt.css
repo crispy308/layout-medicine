@@ -69,7 +69,10 @@
     }
 
     .main__button {
-        width: 40%;
+        background-color: #00abff;
+        justify-content: center;
+        width: 200px;
+        margin: 0 auto;
     }
 
     .section__item h1 {
@@ -243,5 +246,25 @@
             font-weight: 400;
             line-height: 18px;
             margin-top: 20px;
+        }
+
+        .form__input {
+            width: 250px;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+
+        .go {
+            width: 250px;
+            margin: 0 auto;
+        }
+
+        .footer {
+            padding-top: 40px;
+            height: 300px;
+        }
+
+        .footer__item h3, h4 {
+            font-size: 11px;
         }
     }
